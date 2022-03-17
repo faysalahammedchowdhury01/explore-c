@@ -226,6 +226,74 @@ int main()
 
      printf("The LCM of %d and %d is %d\n",a,b,lcm); */
 
+     /* int ft_result = 80;
+     int st_result = 74;
+     int final_result = 97;
+     double total_result = (ft_result / 4.0) + (st_result / 4.0) + (final_result / 2.0);
+
+     printf("%lf",total_result); */
+
+     int arr[5] = {1,2,3,4,5};
+     // int arr2[5];
+
+     // printf("%d\n",arr[0]);
+     // printf("%d\n",arr[100]);
+
+     /* for(int i=0;i<5;i++){
+        printf("%d\n",arr[i]);
+     } */
+
+     /* int i;
+     for(i = 0; i<5; i++){
+        arr2[4-i]=arr[i];
+     }
+
+     for(int i=0;i<5;i++){
+        arr[i] = arr2[i];
+     }
+
+     for(int i=0; i<5;i++){
+        printf("%d\n",arr[i]);
+     } */
+
+     /* int i,j,temp;
+     for(i=0,j=4;i<5/2;i++,j--){
+        temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+     }
+
+     for(int i =0;i<5;i++){
+       printf("%d\n",arr[i]);
+     } */
+
+    /* int ft_marks_arr[40] = {83, 86, 97, 95, 93, 95, 86, 52, 49, 41, 42, 47, 90, 59, 63, 86, 40, 46, 92, 56, 51, 48, 67, 49, 42, 90, 42, 83, 47, 95, 69, 82, 82, 58, 69, 67, 53, 56, 71, 62},
+    st_marks_arr[40] = {86, 97, 95, 93, 95, 86, 52, 49, 41, 42, 47, 90, 59, 63, 86, 40, 46, 92, 56, 51, 48, 67, 49, 42, 90, 42, 83, 47, 95, 69, 82, 82, 58, 69, 67, 53, 56, 71, 62, 49},
+    final_marks_arr[40] = {87, 64, 91, 43, 89, 66, 58, 73, 99, 81, 100, 64, 55, 69, 85, 81, 80, 67, 88, 71, 62, 78, 58, 66, 98, 75, 86, 90, 80, 85, 100, 64, 55, 69, 85, 81, 80, 67, 88, 71};
+    */
+
+    /* for(int i = 0; i < 40; i++){
+        int ft_marks = ft_marks_arr[i];
+        int st_marks = st_marks_arr[i];
+        int final_marks = final_marks_arr[i];
+        double total_marks = ft_marks / 4.0 + st_marks / 4.0 + final_marks / 2.0;
+        printf("Roll No: %d. Total Marks: %0.2lf.\n",i+1,total_marks);
+    } */
+
+    /* double total_marks_arr[40];
+
+    for(int i=0;i<40;i++){
+        int ft_marks = ft_marks_arr[i];
+        int st_marks = st_marks_arr[i];
+        int final_marks = final_marks_arr[i];
+        double total_marks = ft_marks / 4.0 + st_marks / 4.0 + final_marks / 2.0;
+
+        total_marks_arr[i]=total_marks;
+    }
+
+    for(int i=0;i<40;i++){
+        printf("Roll No: %d,\t Total Marks: %0.2lf.\n",i+1,total_marks_arr[i]);
+    } */
 
 
     return 0;

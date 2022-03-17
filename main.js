@@ -54,3 +54,56 @@
 // }
 
 // hcf = a;
+
+// let arr = [1, 2, 3, 4, 5];
+// let arr2 = [];
+
+// let i;
+// for (i = 0; i < 5; i++) {
+//   arr2[4 - i] = arr[i];
+// }
+
+// for (let i = 0; i < 5; i++) {
+//   arr[i] = arr2[i];
+// }
+
+// for (let i = 0; i < 5; i++) {
+//   console.log(arr[i]);
+// }
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+// let i, j, temp;
+// for (i = 0, j = arr.length - 1; i < arr.length / 2; i++, j--) {
+//   temp = arr[i];
+//   arr[i] = arr[j];
+//   arr[j] = temp;
+// }
+
+// // arr.reverse();
+
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(arr[i]);
+// }
+
+const totalMarks = [6, 6, 9, 7, 4, 6, 9, 7, 6, 2, 4, 3, 4, 1];
+
+// const uniqueTotalMarks = totalMarks.filter(
+//   (item, index) => totalMarks.indexOf(item) === index
+// );
+
+const uniqueTotalMarks = [];
+
+const count = {};
+
+for (let i = 0; i < totalMarks.length; i++) {
+  const index = uniqueTotalMarks.indexOf(totalMarks[i]);
+  const isExist = index === -1 ? false : true;
+  if (isExist) {
+    count['number' + uniqueTotalMarks[index]] =
+      count['number' + uniqueTotalMarks[index]] + 1 || 2;
+  }
+  uniqueTotalMarks.push(totalMarks[i]);
+}
+
+console.log(count);
