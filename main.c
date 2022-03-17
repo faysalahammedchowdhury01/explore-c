@@ -295,6 +295,33 @@ int main()
         printf("Roll No: %d,\t Total Marks: %0.2lf.\n",i+1,total_marks_arr[i]);
     } */
 
+    // int total_marks[] = {86, 78, 94, 68, 92, 78, 64, 62, 72, 61, 72, 66, 65, 65, 80, 72, 62, 68, 81, 62, 56, 68, 58, 56, 82, 70, 74, 78, 76, 84, 88, 73, 62, 66, 76, 70, 67, 65, 77, 63};
+
+    /* for(int marks = 50; marks<=100;marks++){
+        int count = 0;
+        for(int i = 0; i<40;i++){
+            if(marks == total_marks[i]){
+                count++;
+            }
+        }
+        printf("Marks: %d, Count: %d\n",marks,count);
+    }*/
+
+    /*int total_marks[] = {6, 7, 4, 6, 9, 7, 6, 2, 4, 3, 4, 1};
+    int marks_count[11];
+
+    for(int i=0;i<11;i++){
+        marks_count[i]=0;
+    }
+
+    for(int i=0;i<10;i++){
+        marks_count[total_marks[i]]++;
+    }
+
+    for(int i=0;i<11;i++){
+        printf("%d\n",marks_count[i]);
+    }*/
+
 
     return 0;
 }
